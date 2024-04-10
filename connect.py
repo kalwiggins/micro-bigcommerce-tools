@@ -17,9 +17,9 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-def get_api_response(url, method='get'):
+def get_api_response(url, method='get', json=None):
     """Make an API request and return the response."""
-    response = requests.request(method, url, headers=headers)
+    response = requests.request(method, url, headers=headers, json=json)
     return response
 
 

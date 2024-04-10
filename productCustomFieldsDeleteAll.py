@@ -42,4 +42,5 @@ def productCustomFieldsDelete(product_id=None):
 
 # Test the function with a single product ID
 if __name__ == '__main__':
-    productCustomFieldsDelete(product_id="48050")  # Replace "48050" with your product ID or remove it to run for all products
+    # productCustomFieldsDelete(product_id="48050")  # Replace "48050" with your product ID or remove it to run for all products
+    productCustomFieldsDelete()
